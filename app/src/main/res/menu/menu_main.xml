@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_alert"
+        android:title="Alert"
+        android:icon="@android:drawable/ic_dialog_alert"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_date"
+        android:title="Date"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_today"
+        />
+    <item
+        android:id="@+id/action_time"
+        android:title="Time"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        />
+
+</menu>
